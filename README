@@ -1,0 +1,1 @@
+g++ test.c  -I/usr/local/include  `pkg-config --static --libs glfw3` -framework OpenGL -framework Cocoa -Wno-deprecated -framework SDL2
